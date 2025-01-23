@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="28" total="30" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleTestsForWebBrowser" duration-ms="101233" started-at="2023-03-06T14:42:04Z" finished-at="2023-03-06T14:43:45Z">
+    <groups>
+      <group name="baseUrl">
+        <method signature="BaseUrlTest.baseUrlTest()[pri:2, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="baseUrlTest" class="com.manulife.automation.selenium_execution.tests.web.BaseUrlTest"/>
+        <method signature="BaseUrlTest.feedbackTest(java.util.Map)[pri:3, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="feedbackTest" class="com.manulife.automation.selenium_execution.tests.web.BaseUrlTest"/>
+      </group> <!-- baseUrl -->
+      <group name="smoke">
+        <method signature="BaseUrlTest.baseUrlTest()[pri:2, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="baseUrlTest" class="com.manulife.automation.selenium_execution.tests.web.BaseUrlTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="FunctionalTests" duration-ms="101233" started-at="2023-03-06T14:42:04Z" finished-at="2023-03-06T14:43:45Z">
+      <class name="com.manulife.automation.selenium_execution.tests.web.BaseUrlTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="setupClass" is-config="true" duration-ms="51" started-at="2023-03-06T09:42:04Z" description="Download webdriver" finished-at="2023-03-06T09:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="createDriver" is-config="true" duration-ms="20196" started-at="2023-03-06T09:42:04Z" finished-at="2023-03-06T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="init" is-config="true" duration-ms="4640" started-at="2023-03-06T09:42:24Z" description="initialize webdriver" finished-at="2023-03-06T09:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="startPerfectoReport(java.lang.reflect.Method)[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="startPerfectoReport" is-config="true" duration-ms="111" started-at="2023-03-06T09:42:29Z" finished-at="2023-03-06T09:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.manulife.automation.selenium_execution.tests.web.BaseUrlTest.baseUrlTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startPerfectoReport -->
+        <test-method status="PASS" signature="baseUrlTest()[pri:2, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="baseUrlTest" duration-ms="917" started-at="2023-03-06T09:42:29Z" description="Base URL Test" finished-at="2023-03-06T09:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrlTest -->
+        <test-method status="PASS" signature="stopPerfectoReport(org.testng.ITestResult)[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="stopPerfectoReport" is-config="true" duration-ms="94" started-at="2023-03-06T09:42:33Z" finished-at="2023-03-06T09:42:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=baseUrlTest status=SUCCESS method=BaseUrlTest.baseUrlTest()[pri:2, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopPerfectoReport -->
+        <test-method status="PASS" signature="clearSettings()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="clearSettings" is-config="true" duration-ms="14491" started-at="2023-03-06T09:42:33Z" description="Close Browser after every test and etc." finished-at="2023-03-06T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSettings -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="createDriver" is-config="true" duration-ms="15889" started-at="2023-03-06T09:42:49Z" finished-at="2023-03-06T09:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="init" is-config="true" duration-ms="3356" started-at="2023-03-06T09:43:05Z" description="initialize webdriver" finished-at="2023-03-06T09:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="startPerfectoReport(java.lang.reflect.Method)[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="startPerfectoReport" is-config="true" duration-ms="73" started-at="2023-03-06T09:43:09Z" finished-at="2023-03-06T09:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.manulife.automation.selenium_execution.tests.web.BaseUrlTest.feedbackTest(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startPerfectoReport -->
+        <test-method status="PASS" signature="feedbackTest(java.util.Map)[pri:3, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="feedbackTest" duration-ms="10855" started-at="2023-03-06T09:43:09Z" description="Feedback test" data-provider="readDataFromExcel" finished-at="2023-03-06T09:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CurrentRow=2, Email=wahab_shah@manulife.ca, Feedback=Hello developers, this website is very useful for test automation!, Subject=Great Website, Name=Wahab Shah}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedbackTest -->
+        <test-method status="PASS" signature="stopPerfectoReport(org.testng.ITestResult)[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="stopPerfectoReport" is-config="true" duration-ms="62" started-at="2023-03-06T09:43:20Z" finished-at="2023-03-06T09:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feedbackTest status=SUCCESS method=BaseUrlTest.feedbackTest(java.util.Map)[pri:3, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopPerfectoReport -->
+        <test-method status="PASS" signature="clearSettings()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="clearSettings" is-config="true" duration-ms="24196" started-at="2023-03-06T09:43:20Z" description="Close Browser after every test and etc." finished-at="2023-03-06T09:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSettings -->
+        <test-method status="PASS" signature="closeChromeDrivers()[pri:0, instance:com.manulife.automation.selenium_execution.tests.web.BaseUrlTest@769d513]" name="closeChromeDrivers" is-config="true" duration-ms="114" started-at="2023-03-06T09:43:45Z" description="Close Browser after the tests." finished-at="2023-03-06T09:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChromeDrivers -->
+      </class> <!-- com.manulife.automation.selenium_execution.tests.web.BaseUrlTest -->
+    </test> <!-- FunctionalTests -->
+  </suite> <!-- SampleTestsForWebBrowser -->
+</testng-results>

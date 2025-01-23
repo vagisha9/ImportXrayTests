@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+	<suite name="Default Suite">
+		<test name="Default Test">
+			<class name="com.manulife.yourProjectName.uft.tests">
+				<test-method status="FAIL" signature="Default_Fail()" name="Default_Fail" duration-ms="132000"
+					started-at="2019-12-12 09:59:22" description=""
+					finished-at="2019-12-12 10:01:34">
+					<exception class="java.lang.AssertionError">
+						<message>
+							wePolicy: Cannot identify the object "wePolicy" (of class WebEdit). Verify that this object's properties match an object currently displayed in your application.
+						</message>
+					</exception>
+				</test-method>
+			</class>
+		</test>
+		<test name="Default Test">
+			<class name="com.manulife.yourProjectName.uft.tests">
+				<test-method status="PASS" signature="Default_Pass()" name="Default_Pass" duration-ms="23000"
+					started-at="2020-05-14 16:58:57" description=""
+					finished-at="2020-05-14 04:59:20">
+				</test-method>
+			</class>
+		</test>
+		<test name="Default Test">
+			<class name="com.manulife.yourProjectName.uft.tests">
+				<test-method status="PASS" signature="Post_Step_Pass()" name="Post_Step_Pass" duration-ms="112000"
+					started-at="2019-04-05 15:35:15" description=""
+					finished-at="2019-04-05 03:37:07">
+				</test-method>
+			</class>
+		</test>
+		<test name="Default Test">
+			<class name="com.manulife.yourProjectName.uft.tests">
+				<test-method status="PASS" signature="Pre_Step_Warning()" name="Pre_Step_Warning" duration-ms="314000"
+					started-at="2019-12-04 16:27:02" description=""
+					finished-at="2019-12-04 04:32:16">
+				</test-method>
+			</class>
+		</test>
+	</suite>
+</testng-results>

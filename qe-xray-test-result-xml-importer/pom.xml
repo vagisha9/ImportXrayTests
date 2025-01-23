@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.manulife.automation</groupId>
+	<artifactId>xray-test-result-xml-importer</artifactId>
+	<version>1.0.0</version>
+	<name>xray-test-result-xml-importer</name>
+	<description>This project imports TestNG / JUnit test result xml file to Xray from your local</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    	<maven.compiler.source>1.7</maven.compiler.source>
+    	<maven.compiler.target>1.7</maven.compiler.target>
+  	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>app.getxray</groupId>
+				<artifactId>xray-maven-plugin</artifactId>
+				<version>0.7.2</version>
+				<configuration>
+					<!-- Jira Setting -->
+					<!-- Jira Cloud -->
+					<!-- <cloud>true</cloud>
+					<clientId>YOUR_JIRA_CLIENT_ID</clientId>
+					<clientSecret>YOUR_JIRA_CLIENT_SECRET</clientSecret> -->
+
+					<!-- Jira Server/DC -->
+					<jiraBaseUrl>https://manulife-cdn.atlassian.net</jiraBaseUrl>
+					<jiraToken>YOUR_JIRA_API_TOKEN</jiraToken>
+
+					<!-- Project Setting -->
+					<!-- Project Key -->
+					<projectKey>YOUR_PROJECT_KEY</projectKey>
+
+					<!-- (Optional) Test Plan Key -->
+					<testPlanKey>YOUR_TEST_PLAN_KEY-XX</testPlanKey>
+
+					<!-- (Optional) Test Execution Key -->
+					<testExecKey>YOUR_TEST_EXEC_KEY-XX</testExecKey>
+
+					<!-- testng|junit|nunit|xunit|robot|xunit|cucumber|behave -->
+					<reportFormat>testng</reportFormat>
+
+					<!-- test result file path. You can import multiple files by providing the value like test-result/*.xml-->
+					<reportFile>test-result/testng_result_for_xray.xml</reportFile>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
